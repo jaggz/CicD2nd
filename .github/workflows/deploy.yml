@@ -1,6 +1,5 @@
 # Name of the GitHub Actions workflow
 name: Deploy
-
 # Trigger the workflow on push and pull request events to the main branch
 on:
   push:
@@ -37,3 +36,6 @@ jobs:
         # Run the deployment command
         run: |
           curl "$DEPLOY_URL"
+
+
+
