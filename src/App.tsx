@@ -10,6 +10,7 @@ const companyName2: string = 'XYZ Corporation';
 const productDescription2 = 'Amazing Product!';
 const price2 = '$49.99';
 
+
 function App() {
 
   return (
